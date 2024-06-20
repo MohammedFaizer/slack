@@ -2,7 +2,7 @@ import requests
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
-SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/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'
+SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/T078U0V655Z/B0791JW15FE/1QqkavvkhhaHhYt8A62fq'
 
 @api_view(['POST'])
 def hello_world(request):
